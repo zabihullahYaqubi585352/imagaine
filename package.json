@@ -1,0 +1,22 @@
+{
+  "name": "imagaine",
+  "version": "1.0.0",
+  "description": "some discription",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass  scss/style.scss dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabihullahYaqubi585352/imagaine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabihullahYaqubi585352/imagaine/issues"
+  },
+  "homepage": "https://github.com/zabihullahYaqubi585352/imagaine#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
