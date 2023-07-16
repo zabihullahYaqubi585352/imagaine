@@ -2,7 +2,7 @@
 
 .header {
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +14,6 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 30px;
-
   }
 
   .header__left__contentDiv {
@@ -43,50 +42,48 @@
     margin-left: 6px;
   }
 
-  .header__center{
-
+  .header__center {
     display: flex;
     justify-self: flex-start;
     align-items: center;
     gap: 30px;
+  }
+  .header__center__navbar {
+    font-size: 18px;
+    color: #282a30;
+  }
+  .header__right {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__right__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    padding: 5px;
     
   }
-  .header__center__navbar{
+  .header__right__right {
+    background: linear-gradient(135deg, #6699FF 0%, #FF3366 100%);
+    // box-shadow: 0 10px 20px -10px var(--shadow-color-nebula);
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 3px 12px;
+  }
+  .header__right__left__visaLink {
+    text-decoration: none;
     font-size: 18px;
-    color: #282a30
 
   }
-  .header__right{
-    width: 268px;
-    height: 45px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .header__right__left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+  .header__right__righ__applyLink {
+    text-decoration: none;
+    color: #ffffff;
     font-size: 20px;
-    margin-right: 30px;
+    box-shadow: #FF3366;
 
-  }
-  .header__right__right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-size: 20px;
-    border: 1 solid wheat;
-    border-radius: 20px;
-    background-color: olivedrab;
-    padding: 2px  15px;
-  }
-  .header__right__left__visaLink{
-    text-decoration: none;
-  }
-  .header__right__righ__applyLink{
-    text-decoration: none;
   }
 }
