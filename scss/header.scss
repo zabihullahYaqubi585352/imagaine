@@ -1,47 +1,92 @@
 @import "../scss/Variables";
 
-.header{
-    width: 100%;
-    height: 80px;
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $headerColor;
+  .header__left {
+    width: 238px;
+    height: 45px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    background-color: $headerColor;
+    margin-left: 30px;
 
+  }
 
-    .header__left{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 20px;
-        margin-left: 35px;
-        font-size: 18px;
-        
-        }
-    .button{
-    //  --burger-padding: 6px;
-    display: grid;
-    box-sizing: content-box;
-    grid-template-columns: 1fr;
-    // -ms-flex-order: -10;
-    // order: -10;
-    width: 20px;
-    margin: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 5px;
-    align-content: stretch;
-}
-
-
-.span{
+  .header__left__contentDiv {
     width: 100%;
-    height: 2px;
-    background-color: #0d0c22;
-}
-}
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: orange;
+  }
+  .header__left__contentDiv__linkDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+  }
+  .header__left__contentDiv__linkDiv__imageDiv__img {
+    margin-left: 2px;
+  }
+  .header__left__contentDiv__linkDiv__spanText {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 6px;
+  }
 
+  .header__center{
 
-        
- 
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  .header__center__navbar{
+    font-size: 18px;
+    color: #282a30
+
+  }
+  .header__right{
+    width: 268px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .header__right__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 30px;
+
+  }
+  .header__right__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1 solid wheat;
+    border-radius: 20px;
+    background-color: olivedrab;
+    padding: 2px  15px;
+  }
+  .header__right__left__visaLink{
+    text-decoration: none;
+  }
+  .header__right__righ__applyLink{
+    text-decoration: none;
+  }
+}

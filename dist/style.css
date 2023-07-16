@@ -1,0 +1,96 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+* {
+  margin: 0; }
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%; }
+
+input, button, textarea, select {
+  font: inherit; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word; }
+
+#root, #__next {
+  isolation: isolate; }
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; }
+  .header .header__left {
+    width: 238px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px; }
+  .header .header__left__contentDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .header .header__left__contentDiv__linkDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none; }
+  .header .header__left__contentDiv__linkDiv__imageDiv__img {
+    margin-left: 2px; }
+  .header .header__left__contentDiv__linkDiv__spanText {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 6px; }
+  .header .header__center {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    gap: 30px; }
+  .header .header__center__navbar {
+    font-size: 18px;
+    color: #282a30; }
+  .header .header__right {
+    width: 268px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .header .header__right__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 30px; }
+  .header .header__right__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1 solid wheat;
+    border-radius: 20px;
+    background-color: olivedrab;
+    padding: 2px  15px; }
+  .header .header__right__left__visaLink {
+    text-decoration: none; }
+  .header .header__right__righ__applyLink {
+    text-decoration: none; }
