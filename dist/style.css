@@ -163,9 +163,10 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: normal;
   font-weight: 700;
   letter-spacing: -0.5;
-  width: 70%;
+  width: 71%;
   height: auto;
-  color: aliceblue; }
+  color: aliceblue;
+  margin-top: 45px; }
 
 .bockgroundImagePart__card__cardTextDiv2 {
   width: 75%;
@@ -177,7 +178,7 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: normal;
   font-weight: 700;
   letter-spacing: -0.5;
-  width: 70%;
+  width: 67%;
   height: auto;
   color: aliceblue;
   margin-top: 30px; }
@@ -186,12 +187,68 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 250px;
   height: auto;
   border-radius: 25px;
-  padding: 10px 10px;
+  padding: 10px 25px;
   margin-top: 40px;
   background-image: linear-gradient(135deg, #6699ff 0%, #ff3366 100%); }
+
+.bockgroundImagePart__card__link {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none; }
+
+.marksAndbrands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 0 0;
+  margin-top: 30px; }
+
+.marksAndbrands__h2Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: auto; }
+
+.marksAndbrands__h2Div__h2 {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600px; }
+
+.marksAndbrands__h2Div__span {
+  margin-top: 10px;
+  font-size: px;
+  color: gray;
+  text-align: center; }
+
+.brunds {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 30px;
+  height: auto; }
+
+.brunds__imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: auto;
+  margin: 10px; }
+
+.brunds__imgDiv > img {
+  max-width: 100%;
+  max-height: 100%; }
 
 @media (max-width: 768px) {
   .bockgroundImagePart {
@@ -202,10 +259,7 @@ p, h1, h2, h3, h4, h5, h6 {
   .bockgroundImagePart__card__cardTittleDiv__cardTittle {
     font-size: 45px;
     color: #e62e5f;
-    letter-spacing: -4.5;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 900;
-    font-style: normal; }
+    font-weight: bold; }
   .bockgroundImagePart__card__cardTextDiv1 {
     width: 100%;
     height: auto; }
@@ -217,7 +271,8 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.5;
     width: 90%;
     height: auto;
-    color: aliceblue; }
+    color: aliceblue;
+    margin-top: 20px; }
   .bockgroundImagePart__card__cardTextDiv2 {
     width: 100%;
     height: auto; }
@@ -230,7 +285,7 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 90%;
     height: auto;
     color: aliceblue;
-    margin-top: 30px; }
+    margin-top: 20px; }
   .bockgroundImagePart__card__linkDiv {
     display: flex;
     justify-content: center;
