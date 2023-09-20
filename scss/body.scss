@@ -146,7 +146,78 @@
   max-width: 100%;
   max-height: 100%;
 }
+.cartsDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 25px;
+  width: 100%;
+  height: auto;
+}
 
+.cartSDiv__Tittle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  padding: 18px 0;
+
+
+
+
+}
+.cartsDiv__cartBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:auto;
+  padding: 10px 30px;
+  
+}
+.cartsDiv__cartBody__cartOne{
+ width: 400px;
+ height: 400px;
+
+
+ 
+}
+.cartsDiv__cartBody__cartOne__heartDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  
+}
+.cartsDiv__cartBody__cartOne__heartDiv__heart{
+ color: #fff;
+ fill: #fff;
+ background-color: #18e95e;
+}
+
+.cartsDiv__cartBody__cartTwo{
+width: 400px;
+  height: 400px;
+  background-color: #bdcf7b;
+}
+.cartsDiv__cartBody__cartThree{
+  width: 50%;
+  height: auto;
+  background-color: #5e6ecc;
+}
+.cartsDiv__cartBody__cartFour{
+  width: 50%;
+  height: auto;
+  background-color: #77ad80;
+}
 @media (max-width: 768px) {
   .bockgroundImagePart {
     height: 450px;
